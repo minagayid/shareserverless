@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+
+# Go
+bin/
+vendor/
+*.exe
+*.test
+*.prof
+.cover/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets/
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# K8s
+*.kubeconfig
+
+# Tests
+test-results/

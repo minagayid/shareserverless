@@ -1,0 +1,6 @@
+syntax = "proto3";
+package shareserverless;
+
+message Workload { string id = 1; bytes image = 2; map<string,string> env = 3; }
+message Result { string node_id = 1; bytes output = 2; string status = 3; }
+service Executor { rpc Run(Workload) returns (Result); }

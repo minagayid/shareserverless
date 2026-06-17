@@ -1,0 +1,1 @@
+module github.com/minagayid/shareserverless/go\n\ngo 1.22\n
